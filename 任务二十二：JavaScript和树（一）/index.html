@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>JavaScript和树(一)</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<h1 id="title">JavaScript和树（一）</h1>
+<p id="controller">
+    <input type="button" onclick="PreOrderFun()" value="前序遍历" >
+    <input type="button" onclick="InOrderFun()" value="中序遍历">
+    <input type="button" onclick="PostOrderFun()" value="后序遍历">
+</p>
+<div class="root">
+    <div class="first-child">
+        <div class="second-child">
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+        </div>
+        <div class="second-child">
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+        </div>
+    </div>
+    <div class="first-child">
+        <div class="second-child">
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+        </div>
+        <div class="second-child">
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script type="text/javascript" src="js.js"></script>
+</html>
