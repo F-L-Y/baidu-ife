@@ -1,0 +1,56 @@
+body{
+    height:100%;
+}
+#container
+{
+    background-color: #EEE;
+    overflow: auto;
+    border:solid 1px  #999;
+}
+#team
+{
+    width:200px;
+    background-color: #FFFFFF;
+    float:left;
+    margin:20px;
+    border:solid 1px  #999;
+}
+#team-logo
+{
+    height:80px;
+    width:80px;
+    background-color: #EEE;
+    margin:20px;
+    float:left;
+    border:solid 1px  #999;
+}
+#team p
+{
+    float:right;
+    margin-top:20px;
+    margin-right:10px;
+}
+
+#team-introduce
+{
+    margin:20px 160px 0 240px;
+    height:100%;
+    background-color: #FFFFFF;
+    border:solid 1px  #999;
+}
+#personal
+{
+    width:120px;
+    background-color:#FFFFFF;
+    float:right;
+    margin:20px;
+    border:solid 1px  #999;
+}
+.personal-logo
+{
+    height:80px;
+    width:80px;
+    background-color: #00FFFF;
+    margin: 20px;
+    border:solid 1px  #999;
+}
