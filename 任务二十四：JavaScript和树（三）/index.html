@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>JavaScript和树(二)</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="init()">
+<p id="controller">
+    <span>选择搜索方式查找分类</span><input id="type" type="text" placeholder="输入要搜索的种类">
+</p>
+<p id="controller2">
+    <input type="button" onclick="PreOrderFun()" value="前序遍历搜索" >
+    <input type="button" onclick="InOrderFun()" value="中序遍历搜索">
+    <input type="button" onclick="PostOrderFun()" value="后序遍历搜索">
+</p>
+<div class="root" title="生物">
+    生物
+    <div class="first-child" title="动物">
+        动物
+        <div class="second-child" title="哺乳动物">
+            哺乳动物
+            <div class="leaf" title="人">人</div>
+            <div class="leaf" title="猫">猫</div>
+            <div class="leaf" title="狗">狗</div>
+            <div class="leaf" title="猪">猪</div>
+        </div>
+        <div class="second-child" title="节肢动物">
+            节肢动物
+            <div class="leaf" title="蜘蛛">蜘蛛</div>
+            <div class="leaf" title="虾">虾</div>
+        </div>
+    </div>
+    <div class="first-child" title="植物">
+        植物
+        <div class="second-child" title="自养植物">
+        自养植物
+        </div>
+        <div class="second-child" title="异养植物">
+            异养植物
+            <div class="leaf" title="寄生植物">寄生植物</div>
+            <div class="leaf" title="腐生植物">腐生植物</div>
+            <div class="leaf" title="食虫植物">食虫植物</div>
+        </div>
+    </div>
+    <div class="first-child" title="微生物">
+        微生物
+    </div>
+</div>
+<p id="controller3">
+    <span>添加子分类：</span><input id="add_type" type="text" placeholder="输入要添加的种类">
+    <input type="button" value="添加" onclick="Add()">
+    <input type="button" value="删除选中元素" onclick="Delete()">
+</p>
+
+</body>
+<script type="text/javascript" src="js.js"></script>
+</html>

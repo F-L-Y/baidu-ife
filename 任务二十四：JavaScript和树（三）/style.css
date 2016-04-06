@@ -1,0 +1,64 @@
+#controller
+{
+    margin:50px 0 0 500px;
+}
+#controller2
+{
+    margin:0 0 0 495px;
+}
+input
+{
+    margin:10px;
+}
+#controller3
+{
+    margin:50px 0 0 465px;
+}
+
+.first-child, .second-child, .leaf
+{
+    margin:15px;
+    border: solid #000000 1px;
+    background-color: #FFFFFF;
+}
+.root
+{
+    height:210px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border: solid #000000 1px;
+    background-color: #FFFFFF;
+    margin:50px 0 0 0px;
+    cursor:pointer;
+
+}
+.first-child
+{
+    height:70%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.second-child
+{
+    height:70%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.leaf
+{
+    height:70%;
+    width:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.clild
+{
+    margin:15px;
+    border: solid #000000 1px;
+    background-color: #FFFFFF;
+}
